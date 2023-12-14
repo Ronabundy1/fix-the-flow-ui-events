@@ -88,3 +88,7 @@ a:nth-of-type(12) {
   color: red; 
 }
 
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
