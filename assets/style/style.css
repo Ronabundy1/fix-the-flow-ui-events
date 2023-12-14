@@ -92,3 +92,7 @@ a:nth-of-type(12) {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
 }
+
+.bigger {
+  font-size: 1.5em; /*vergroot de lettergrootte */
+}

@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.backgroundColor = "lightgreen"; //verander de achtergrondkleur
   });
 });
-
+//Development draaien//
 const development = document.getElementById('development');
 
 development.addEventListener('animationend', turn);
@@ -42,3 +42,15 @@ function turn() {
   development.classList.toggle('rotate'); 
 }
 
+//Sprint 5//
+  let sprint5 = document.getElementById('sprint-5');
+  
+  sprint5.addEventListener('click', function(event) {
+    if (sprint5.classList.contains('bigger')) {
+      sprint5.classList.remove('bigger'); // Verwijder de klasse als deze al bestaat
+    } else {
+      sprint5.classList.add('bigger'); 
+    }
+  });
+
+  
