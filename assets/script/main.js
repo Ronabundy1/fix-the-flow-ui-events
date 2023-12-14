@@ -57,3 +57,16 @@ function turn() {
     // er verschijnt een popup met tekst
     alert("Link is geklikt!");
 });
+
+//mouse enter en mouse leave//
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('a').forEach(link => {//selecteer alle a elementen
+    link.addEventListener('mouseenter', (event) => {//mouse enter
+      link.classList.add('hover-color-change');
+    });
+
+    link.addEventListener('mouseleave', (event) => {//mouse leave
+      link.classList.remove('hover-color-change');
+    });
+  });
+});

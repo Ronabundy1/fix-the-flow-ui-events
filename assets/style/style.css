@@ -81,6 +81,7 @@ a:nth-of-type(12) {
   100% {
     transform: scale(1, 1) translateY(0);
   }
+
 }
 
 /* Jouw animaties */
@@ -96,4 +97,11 @@ a:nth-of-type(12) {
 
 .bigger {
   font-size: 1.5em; /*vergroot de lettergrootte */
+}
+
+/* CSS for color change on hover */
+.hover-color-change {
+  /* Modify these properties to change colors on hover */
+  color: blue;
+  background-color: yellow;
 }
