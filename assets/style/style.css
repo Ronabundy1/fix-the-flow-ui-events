@@ -21,6 +21,10 @@ body {
 section {
   max-width: 90vw;
 }
+
+.hidden {
+  display: none;
+}
 a {
   display: inline-block;
   margin: 0.2em;
