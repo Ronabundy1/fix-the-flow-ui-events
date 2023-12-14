@@ -53,4 +53,7 @@ function turn() {
     }
   });
 
-  
+  document.getElementById("fix").addEventListener("click", function(popup) {
+    // er verschijnt een popup met tekst
+    alert("Link is geklikt!");
+});
