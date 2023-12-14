@@ -6,3 +6,10 @@ interaction.addEventListener('animationend', jumpHandler)
 function jumpHandler() {
   interaction.classList.toggle('jump')
 }
+
+// dubbelclick dan verander de kleur
+const frontend = document.getElementById('frontend');
+
+frontend.addEventListener("dblclick", function () {
+  frontend.classList.toggle("changeColor");
+});
