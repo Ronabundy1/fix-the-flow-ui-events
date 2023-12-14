@@ -25,4 +25,10 @@ designLink.addEventListener('click', function(event) {
         designLink.classList.remove('hidden');
     }, 3000); 
 });
+document.addEventListener("DOMContentLoaded", function() {
+  const andLink = document.getElementById("and");
 
+  andLink.addEventListener("dblclick", function(event) {
+    document.body.style.backgroundColor = "lightgreen"; //verander de achtergrondkleur
+  });
+});
